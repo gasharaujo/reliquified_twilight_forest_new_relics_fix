@@ -1,0 +1,59 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="reliquified_twilight_forest_new_relics_fix"
+version="1.0.4"
+displayName="Reliquified Twilight Forest new relics fix"
+authors="Gasharaujo"
+description='''
+Compatibility bridge for Reliquified Twilight Forest 0.5.3 and Relics 0.12.8.
+Rewrites removed Relics 0.10 API references and adapts relic definitions,
+runtime state, active abilities, Curios integration, and legacy rendering.
+'''
+
+[[mixins]]
+config="reliquified_twilight_forest_new_relics_fix.mixins.json"
+
+[[dependencies.reliquified_twilight_forest_new_relics_fix]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.93,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.reliquified_twilight_forest_new_relics_fix]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.reliquified_twilight_forest_new_relics_fix]]
+modId="relics"
+type="required"
+versionRange="[0.12.8,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.reliquified_twilight_forest_new_relics_fix]]
+modId="reliquified_twilight_forest"
+type="required"
+versionRange="[0.5.3,)"
+ordering="BEFORE"
+side="BOTH"
+
+[[dependencies.reliquified_twilight_forest_new_relics_fix]]
+modId="curios"
+type="required"
+versionRange="[9.5.1,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.reliquified_twilight_forest_new_relics_fix]]
+modId="twilightforest"
+type="required"
+versionRange="[4.8.3345,)"
+ordering="AFTER"
+side="BOTH"

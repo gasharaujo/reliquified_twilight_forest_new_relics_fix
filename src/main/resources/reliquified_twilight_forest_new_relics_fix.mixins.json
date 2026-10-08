@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8.7",
+  "package": "dev.codex.rtfnrf.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "RelicDefinitionCompatMixin",
+    "RelicItemCompatMixin",
+    "LichCrownAbilityDataMixin",
+    "BundleLikeEventHandlerMixin"
+  ],
+  "client": [
+    "ClientAbilityActivationMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
